@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galactic Getaways</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="header-logo">Galactic Getaways</h1>
+    </header>
+    <main>
+      <!--Nav Bar-->
+      <nav>
+        <ul class="main-nav">
+          <li>
+            <a class="main-nav-link" href="#planet-hopping">Planet Hopping</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="#alien-encounters"
+              >Alien Encounters</a
+            >
+          </li>
+          <li>
+            <a class="main-nav-link" href="#zero-gravity">Zero-Gravity Gigs</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="#stargazing">Stargazing Tours</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!--First row with intro text-->
+      <div class="row">
+        <div class="column column-with-text column-white-background">
+          <h2>Welcome aboard, space travellers, to Galactic Getaways!</h2>
+          <p>
+            Strap in and prepare for an out-of-this-world adventure like no
+            other. Are you ready to be whisked away on a cosmic journey to the
+            far reaches of the universe?
+          </p>
+          <p>
+            Galactic Getaways crafts unforgettable journeys light years ahead of
+            the earthly.
+          </p>
+          <p>
+            From planet hopping to alien encounters, our team of celestial
+            guides are here to launch you into a universe of discovery and make
+            your wildest space dreams come true.
+          </p>
+          <p>
+            At Galactic Getaways, the sky isn't the limit - it's just the
+            beginning!
+          </p>
+        </div>
+
+        <!--First row form-->
+        <div class="column column-size-double column-background-transparent">
+          <h2>Book your trip:</h2>
+          <form method="POST" action="">
+            <div class="input">
+              <p class="input-title">Space Explorer Name:</p>
+              <input type="text" name="name" placeholder="Your name..." />
+            </div>
+            <div class="input-title">
+              <p class="input-title">Earth Address:</p>
+              <textarea
+                type="text"
+                name="address"
+                placeholder="Your address..."
+                cols="50"
+                rows="4"
+              ></textarea>
+            </div>
+            <div class="input">
+              <p class="input-title">Space Activity:</p>
+              <label>
+                <input type="radio" name="activity" value="Planet Hopping" />
+                Planet Hopping
+              </label>
+              <label>
+                <input type="radio" name="activity" value="Alien Encounters" />
+                Alien Encounters
+              </label>
+              <label>
+                <input type="radio" name="activity" value="Zero-Gravity Gigs" />
+                Zero-Gravity Gigs
+              </label>
+              <label>
+                <input type="radio" name="activity" value="Stargazing Tours" />
+                Stargazing Tours
+              </label>
+            </div>
+            <button>Blast Off</button>
+          </form>
+        </div>
+      </div>
+
+      <!--Second row containing a table-->
+      <div class="row">
+        <div class="column column-with-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Activity</th>
+                <th>Transportation</th>
+                <th>Location</th>
+                <th>Cost (per person)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Planet Hopping</td>
+                <td>Space Hopper-400</td>
+                <td>Planets vary weekly</td>
+                <td>£50,000,000</td>
+              </tr>
+              <tr>
+                <td>Alien Encounters</td>
+                <td>Space Shuttle-800</td>
+                <td>Stardustia</td>
+                <td>£70,000,000</td>
+              </tr>
+              <tr>
+                <td>Zero-Gravity Gigs</td>
+                <td>Space Boards</td>
+                <td>Gigs vary weekly</td>
+                <td>£50,000,000 (plus spacesuit hire)</td>
+              </tr>
+              <tr>
+                <td>Stargazing Tours</td>
+                <td>Cosmic Cruiser-500</td>
+                <td>Tours vary weekly</td>
+                <td>£80,000,000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!--Third row with two columns-->
+      <div class="row" id="planet-hopping">
+        <div class="column column-with-media">
+          <img src="./images/shuttle.jpg" />
+        </div>
+        <div class="column column-with-text column-white-background">
+          <h2>Planet Hopping</h2>
+          <p>
+            Strap in for a wild ride as we traverse the celestial highways,
+            making pit stops on some of the galaxy's most iconic planets.
+          </p>
+          <p>
+            From the crimson deserts of Mars to the mysterious rings of Saturn,
+            our interstellar itinerary promises out-of-this-world thrills and
+            sights at every turn!
+          </p>
+          <p>Join Galactic Getaways on a cosmic adventure like no other.</p>
+        </div>
+      </div>
+
+      <!--Fourth row with two columns-->
+      <div class="row row-reversed" id="alien-encounters">
+        <div class="column column-with-media">
+          <img src="./images/aliens.jpg" />
+        </div>
+        <div class="column column-with-text column-white-background">
+          <h2>Alien Encounters</h2>
+          <p>
+            Join us as we explore the wonders of the cosmos and forge
+            unforgettable connections with beings from distant stars.
+          </p>
+          <p>
+            From the bustling markets of Zephyrion to the serene shores of
+            Luminae, travel alongisde our galactic guides to meet the
+            mischievous Quasarians of Novarctica and the wise elders of
+            Celestria, each with their own unique customs and quirks.
+          </p>
+        </div>
+      </div>
+
+      <!--Fifth row with two columns-->
+      <div class="row" id="zero-gravity">
+        <div class="column column-with-media">
+          <img src="./images/astronautfloating.jpg" />
+        </div>
+        <div class="column column-with-text column-white-background">
+          <h2>Zero-Gravity Gigs</h2>
+          <p>
+            Grab your space suit and listen to the stellar sounds of one of our
+            renowned zero-gravity gigs with a cosmic twist!
+          </p>
+          <p>
+            Groove weightlessly to some of the best bands the universe has to
+            offer, from Black Hole Sabbath and Deep Space Purple, to Comet
+            Maiden and Jupiter Priest.
+          </p>
+        </div>
+      </div>
+
+      <!--Sixth row with two columns-->
+      <div class="row row-reversed" id="stargazing">
+        <div class="column column-with-media">
+          <img src="./images/cosmos.jpg" />
+        </div>
+        <div class="column column-with-text column-white-background">
+          <h2>Stargazing Tours</h2>
+          <p>
+            Venture to the darkest corners of the cosmos and witness the
+            awe-inspiring beauty of distant stars, nebulae, and galaxies.
+          </p>
+          <p>
+            Led by expert astronomers, you'll unravel the mysteries of the night
+            sky and witness celestial wonders like never before.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <!--Footer-->
+    <footer>
+      <p class="footer-text">&copy; Galactic Getaways, 2024.</p>
+      <ul class="footer-nav">
+        <li><a class="footer-nav-link" href="#">Privacy Policy</a></li>
+        <li><a class="footer-nav-link" href="#">Cookies</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
