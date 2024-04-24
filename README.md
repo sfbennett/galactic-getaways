@@ -17,8 +17,6 @@ Galactic Getaways is a project for a company who offer tours of the Solar System
 
 <img width="706" alt="image" src="https://github.com/sfbennett/galactic-getaways/assets/156936136/ca7fece9-af44-451c-a711-224e33ad9855">
 
-<img width="1261" alt="image" src="https://github.com/sfbennett/galactic-getaways/assets/156936136/60f8ca7c-d034-49bd-9926-1f7f50ee7e32">
-
 <img width="1261" alt="image" src="https://github.com/sfbennett/galactic-getaways/assets/156936136/58d7ca79-434c-48ba-9840-bb85348d7b3d">
 
 
